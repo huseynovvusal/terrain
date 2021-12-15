@@ -41,9 +41,9 @@ window.addEventListener("resize", () => {
 
 const loader = new THREE.TextureLoader();
 
-const texture = loader.load("../texture/texture.jpg");
-const displacement = loader.load("../texture/height.png");
-const alpha = loader.load("../texture/alpha.png");
+const texture = loader.load("https://huseynovvusal.github.io/terrain//texture/texture.jpg");
+const displacement = loader.load("https://huseynovvusal.github.io/terrain//texture/height.png");
+const alpha = loader.load("https://huseynovvusal.github.io/terrain//texture/alpha.png");
 
 // Geometry
 
